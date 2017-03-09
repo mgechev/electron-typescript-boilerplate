@@ -3,8 +3,8 @@
 // It doesn't have any windows which you can see on screen, but we can open
 // window from here.
 
-import path from 'path';
-import url from 'url';
+import * as path from 'path';
+import * as url from 'url';
 import { app, Menu } from 'electron';
 import { devMenuTemplate } from './menu/dev_menu_template';
 import { editMenuTemplate } from './menu/edit_menu_template';
@@ -17,7 +17,7 @@ import env from './env';
 var mainWindow;
 
 var setApplicationMenu = function () {
-    var menus = [editMenuTemplate];
+    var menus: any[] = [editMenuTemplate];
     if (env.name !== 'production') {
         menus.push(devMenuTemplate);
     }

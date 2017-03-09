@@ -4,7 +4,7 @@
 // instances of it and give each different name.
 
 import { app, BrowserWindow, screen } from 'electron';
-import jetpack from 'fs-jetpack';
+const jetpack = require('fs-jetpack');
 
 export default function (name, options) {
 
