@@ -1,16 +1,14 @@
-# electron-boilerplate [![Build Status](https://travis-ci.org/szwacz/electron-boilerplate.svg?branch=master)](https://travis-ci.org/szwacz/electron-boilerplate) [![Build status](https://ci.appveyor.com/api/projects/status/s9htc1k5ojkn08fr?svg=true)](https://ci.appveyor.com/project/szwacz/electron-boilerplate)
-
 A minimalistic yet comprehensive boilerplate application for [Electron runtime](http://electron.atom.io). Tested on macOS, Windows and Linux.  
 
-This project does not impose on you any framework (like Angular or React). It tries to give you only the 'electron' part of technology stack so you can pick your favorite technologies to build the actual app.
+This project does not impose on you any framework (like Angular or React). It tries to give you only the 'electron' part of technology stack so you can pick your favorite technologies to build the actual app and TypeScript.
 
 # Quick start
 
 The only development dependency of this project is [Node.js](https://nodejs.org), so just make sure you have it installed.
 Then type few commands known to every Node developer...
 ```
-git clone https://github.com/szwacz/electron-boilerplate.git
-cd electron-boilerplate
+git clone https://github.com/mgechev/electron-typescript-boilerplate.git
+cd electron-typescript-boilerplate
 npm install
 npm start
 ```
