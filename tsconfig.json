@@ -8,10 +8,11 @@
     "stripInternal": true,
     "declaration": true,
     "outDir": "./dist",
-    "lib": ["es2015", "dom"]
+    "lib": ["es2015", "dom"],
+    "moduleResolution": "node"
   },
   "files": [
-    "./src/app.ts",
+    "./src/app.ts", 
     "./src/background.ts"
   ],
   "angularCompilerOptions": {
